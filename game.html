@@ -26,6 +26,17 @@ page that contains all the code you need for a new page.-->
     <script type="text/javascript" src="scripts/scripts.js"></script>
 </body>
 <h1>this is the game page</h1>
+
+<form method="GET, POST">
+  <!--this right here is the first question on form-->
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+
+
+     <!--this right is the second question on form-->
 <div class="row border">
   <!--col-4 defines this as 1/3 of a row.-->
   <div class="col-4 border">
@@ -34,19 +45,33 @@ page that contains all the code you need for a new page.-->
   <div class="col-8 border">
       <div class="row">
           <!--col-6 defines each column as 1/2 a row-->
-          <div class="col-6 border">
-            x
+          <div class="col-6 border form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio 1 put img here
+              </label>
           </div>
-          <div class="col-6 border">
-            x
+          <div class="col-6 border form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio 2 put img here
+              </label>
           </div>
-          <div class="col-6 border">
-            x
+          <div class="col-6 border form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio 3 put img here
+              </label>
           </div>
-          <div class="col-6 border">
-            x
+          <div class="col-6 border form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Default radio 4 put ing here
+              </label>
           </div>
       </div>
   </div>
+
 </div>
+</form>
 </html>
