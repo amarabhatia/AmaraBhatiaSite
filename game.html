@@ -19,31 +19,31 @@ page that contains all the code you need for a new page.-->
 
     <h1>this is the game page</h1>
 
-    
+    <a class="btn btn-primary" href="quit.html" role="button">Click Here to Quit</a>
       <form action="results.html" method="get">
 <h4>What is your gender?</h4>
       <!--this right here is the first question on form-->
       <div class="form-check">
-        <input class="form-check-input" type="radio" value="Red" id="redcheck" name="gender">
-        <label class="form-check-label" for="red">
+        <input class="form-check-input" type="radio" value="female" id="femcheck" name="gender">
+        <label class="form-check-label" for="female">
           Female 
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" value="Green" id="greencheck" name="gender">
-        <label class="form-check-label" for="green">
+        <input class="form-check-input" type="radio" value="male" id="malecheck" name="gender">
+        <label class="form-check-label" for="male">
           Male
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" value="Green" id="greencheck" name="gender">
-        <label class="form-check-label" for="green">
+        <input class="form-check-input" type="radio" value="nonbinary" id="nonbcheck" name="gender">
+        <label class="form-check-label" for="nonbinary">
           Non-Binary 
         </label>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="radio" value="Green" id="greencheck" name="gender">
-        <label class="form-check-label" for="green">
+        <input class="form-check-input" type="radio" value="other" id="othercheck" name="gender">
+        <label class="form-check-label" for="other">
           Other
         </label>
       </div>
@@ -56,46 +56,34 @@ page that contains all the code you need for a new page.-->
     <div class="container ms-5 me-5">
         <h4>Pick your favorite outfit:</h4>
     <div class="row border">
-      
-      <!--col-4 defines this as 1/3 of a row.-->
-      <div class="col-4 border">
-
-      </div>
-      <div class="col-8 border">
-          <div class="row">
-              <!--col-6 defines each column as 1/2 a row-->
-              <div class="col-5 border form-check">
-                  <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault1" value="static/puppy.jpg">
-                  <label class="form-check-label" for="outfit1">
-                    Default radio 1 put img here
-                  </label>
-              </div>
-              <div class="col-5 border form-check">
-                  <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault2">
-                  <label class="form-check-label" for="outfit2">
-                    Default radio 2 put img here
-                  </label>
-              </div>
-              <div class="col-5 border form-check">
-                  <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault3">
-                  <label class="form-check-label" for="outfit3">
-                    Default radio 3 put img here
-                  </label>
-              </div>
-              <div class="col-5 border form-check">
-                  <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault4">
-                  <label class="form-check-label" for="outfit4">
-                    Default radio 4 put ing here
-                  </label>
+     
               </div>
           </div>
       </div>
     </div>
-
+    
+        <img src="https://i.pinimg.com/564x/bb/b4/f0/bbb4f0fac9d16794263b72622a1147e1.jpg" alt=""width = 270 height = 500>
+       
+    <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault1" value="https://i.pinimg.com/564x/13/46/4c/13464cfbe73670fb6675919ef2583214.jpg" >
+    <label class="form-check-label" for="outfit1">
+      <img src="https://i.pinimg.com/564x/fd/03/c9/fd03c95b59f090307c3fbbc725e74221.jpg" alt="" width = 250 height = 600>
+    </label>
+    <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault2" value = "https://i.pinimg.com/564x/05/45/7b/05457b41aa126fa1fac918a0b9aacd54.jpg">
+    <label class="form-check-label" for="outfit2">
+      <img src="https://i.pinimg.com/564x/ba/10/f9/ba10f98dafe0738aae4a4e5c2030bd50.jpg" alt="" width = 250 height = 600>
+    </label>
+    <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault3" value = "https://i.pinimg.com/564x/c7/47/f6/c747f6174a5542ca2b4da04f569b0db0.jpg">
+          <label class="form-check-label" for="outfit3">
+         <img src="https://i.pinimg.com/564x/7a/a8/ce/7aa8ce5e152a30245c8085e587cd071c.jpg" alt="" width = 250 height = 600>
+             </label>
+             <input class="form-check-input" type="radio" name="outfit" id="flexRadioDefault4" value = "https://i.pinimg.com/564x/ee/92/4b/ee924bf25c277e6371a7410b13709c33.jpg">
+             <label class="form-check-label" for="outfit4">
+               <img src="https://i.pinimg.com/564x/57/c4/71/57c47117434638be85cb9931aa18855d.jpg" alt="" width = 250 height = 500>
+             </label>
       
 
     <!--this right is the third question on form-->
-    <h4>Based off the gender you choose were you influenced to choose an outfit?</h4>
+    <h4>Based off the gender you choose were you influenced to choose an outfit? How do you feel about that?</h4>
     <input type="" class="form-control" id="writtenresp" name="response" placeholder="answer the question here" required>
 
           <button type="submit" class="btn btn-primary mb-2">Submit</button>

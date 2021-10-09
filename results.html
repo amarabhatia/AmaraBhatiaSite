@@ -31,14 +31,16 @@ page that contains all the code you need for a new page.-->
       const gender = urlParams.get('gender');
       const outfit = urlParams.get('outfit');
       const response = urlParams.get('response');
-      var output = "Your gender is: " + gender + " <br> the outfit you picked is: <img src="+outfit+"> <br>and you wrote the following: <br>" + response;
+      var output = "<h5><em> Your gender is:</em> </h5><h3>" + gender + " </h3><br> <h5><em> the outfit you picked is: </h5></em> <img src="+outfit+ " width = 370 height = 670> <br><h5><em> and you wrote the following: </h5></em> <br> <strong><h4>" + response + "</h4></strong>";
   
       jQuery(document).ready(function() {
         $("#results").html(output); 
       });
   
     </script>
-
+<h5 class="display-6 text-center">I hope this game helped you think about ways in which your gender influences your style, no matter what, 
+  it is important to dress how you want and not let others influence you or your style prefrences, be true to yourself xx
+</h5>
 </body>
-<h1>this is the results page, currently you cannot acess it at all, but once you finish the test you will be able to</h1>
+
 </html>
